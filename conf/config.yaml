@@ -1,0 +1,14 @@
+# Tag definition
+Tags:
+  -
+    name: 'Project'
+    value: 'challenge-app-fe'
+
+#Settings
+Pattern:
+  nonprod:
+    vpcid: 'vpc-xxx'
+    rdsSecretArn: 'arn:aws:secretsmanager:xxx'
+  prod:
+    vpcid: 'vpc-xxx'
+    rdsSecretArn: 'arn:aws:secretsmanager:xxx'
